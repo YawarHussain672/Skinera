@@ -66,7 +66,7 @@ export default function Appointment() {
               <option>HAIR GFC</option>
               <option>Hair Regrowth Laser</option>
               <option>Korean Skin Treatment</option>
-              <option>Botox Treatment</option>
+              {/* <option>Botox Treatment</option> */}
               <option>Anti-aging Solutions</option>
               <option>Deep Peelings</option>
               <option>Facials</option>
@@ -74,6 +74,8 @@ export default function Appointment() {
               <option>Laser Skin Therapy</option>
               <option>Mesotherapy</option>
               <option>Microdermabrasion</option>
+              <option>Eczema</option>
+
             </select>
           </div>
 

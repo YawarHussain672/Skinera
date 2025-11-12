@@ -80,6 +80,14 @@ export default function OurService({ onBookAppointment }) {
             "laser-skin-therapy",
             "mesotherapy",
             "microdermabrasion",
+            "eczema",
+            "psoriasis",
+            "dermatitis",
+            "alopecia-areata"
+
+            
+            
+
           ].map((id) => {
             const svc = servicesExpanded.find((s) => s.id === id);
             if (!svc) return null;

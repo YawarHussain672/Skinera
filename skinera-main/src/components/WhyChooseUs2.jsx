@@ -12,13 +12,14 @@ export default function WhyChooseUs2() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
         {/* Left Content */}
         <div className="lg:col-span-6">
-          <p className="text-sm font-medium tracking-wide text-gray-600 mb-4">
-            Why Choose DSkinova Clinic
+          <p className="text-3xl font-medium tracking-wide text-gray-600 mb-4">
+            Why Choose DSkinova Clinic for
           </p>
           <h2 className="font-domine font-medium text-[#4d1f1a] text-4xl sm:text-5xl leading-tight mb-6">
-            Why Choose DSkinova for <br className="hidden sm:block" /> Skin,
-            Hair, and Cosmetic <br className="hidden sm:block" /> Treatments?
+              Skin, Hair, and Cosmetic{" "}
+            <br className="hidden sm:block" /> Treatments?
           </h2>
+
           <p className="text-gray-600 leading-relaxed max-w-xl mb-8">
             At <span className="font-semibold">DSkinova</span>, we are committed
             to helping you achieve and maintain healthy, radiant skin. Trust us

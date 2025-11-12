@@ -123,7 +123,7 @@ export default function Footer() {
           </div>
 
           {/* Nav links */}
-        <nav className="mt-8 md:mt-10 flex flex-wrap justify-center gap-x-8 gap-y-2 text-white/95">
+        <nav className="mt-8 md:mt-10 flex flex-wrap justify-center items-center gap-x-8 gap-y-2 text-white/95">
           <Link to="/" className="hover:text-white text-sm md:text-base">
             Home
           </Link>
@@ -137,7 +137,7 @@ export default function Footer() {
             to="/admin-login"
             className="hover:text-white text-sm md:text-base"
           >
-            Admin Login
+           
           </Link>
         </nav>
 
@@ -182,7 +182,7 @@ export default function Footer() {
 
           {/* Quicklinks - Services */}
           <div className="sm:col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Quicklinks</h3>
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="grid grid-cols-2 gap-y-2 gap-x-6 text-white/95 text-sm max-w-xs">
               <li>
                 <Link
@@ -197,14 +197,7 @@ export default function Footer() {
                   Facials
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/service/botox-treatment"
-                  className="hover:text-white"
-                >
-                  Botox Treatment
-                </Link>
-              </li>
+             
               <li>
                 <Link to="/service/deep-peelings" className="hover:text-white">
                   Deep peelings

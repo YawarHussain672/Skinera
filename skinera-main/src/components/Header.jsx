@@ -217,7 +217,7 @@ export default function Header({ onBookAppointment }) {
               to="/about"
               className="text-gray-700 hover:text-[#c67c54] transition-colors font-bold"
             >
-              AboutUs
+              About
             </Link>
             {/* Service dropdown */}
             <div
@@ -455,7 +455,7 @@ export default function Header({ onBookAppointment }) {
               to="/contact"
               className="text-gray-700 hover:text-[#c67c54] transition-colors font-bold"
             >
-              ContactUs
+              Contact
             </Link>
           </nav>
 
@@ -567,7 +567,7 @@ export default function Header({ onBookAppointment }) {
               className="block py-3 text-base text-gray-800 border-b border-black/10 font-bold"
               onClick={() => setOpen(false)}
             >
-              AboutUs
+              About Us
             </Link>
 
             {/* Skin accordion */}

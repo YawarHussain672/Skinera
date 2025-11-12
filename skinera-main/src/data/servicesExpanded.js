@@ -23,6 +23,7 @@ import imgFungal from "../../Images/hemopathic-img/fungal.jpg";
 import imgScabies from "../../Images/hemopathic-img/scabies.jpg";
 import imgVitiligo from "../../Images/hemopathic-img/vitiligo-white-spot.jpg";
 import imgAlopecia from "../../Images/hemopathic-img/alopecia-areata.jpg";
+import imgDermatitis from "../../Images/hemopathic-img/dermatitis.jpg";
 // Additional imports for new services
 import imgKoreanFacial from "../../Images/newServicesComponent/Facials.jpg"; // Placeholder for Korean Facial
 import imgVampireFacial from "../../Images/newServicesComponent/Anti-aging-solutions.jpg"; // Placeholder for Vampire Facial
@@ -454,6 +455,48 @@ export const servicesExpanded = [
     included: ["Consultation", "Laser sessions", "Skin cooling", "Post-treatment care"],
     excluded: ["Waxing or shaving immediately before"],
   },
+  {
+  id: "eczema",
+  title: "Eczema Treatment",
+  short: "Relief and management solutions for eczema-prone skin.",
+  overview: {
+    title: "Eczema Treatment",
+    description: "Specialized therapies designed to soothe irritation, reduce inflammation, and strengthen the skin barrier for individuals suffering from eczema."
+  },
+  image: imgEczema, // import an eczema-related image
+  included: ["Skin soothing therapies", "Barrier repair", "Hydration treatments"],
+  excluded: ["Not suitable for active infections"]
+},
+{
+  id: "dermatitis",
+  title: "Dermatitis Treatment",
+  short: "Effective care for managing skin inflammation and irritation.",
+  overview: {
+    title: "Dermatitis Care",
+    description: "Customized treatments designed to relieve itching, reduce redness, and calm skin irritation caused by different types of dermatitis."
+  },
+ 
+  image: imgDermatitis, 
+  included: ["Anti-inflammatory therapies", "Moisturizing treatments", "Barrier repair"],
+  excluded: ["Not suitable for untreated infections"]
+},
+{
+  id: "alopecia-areata",
+  title: "Alopecia Areata Treatment",
+  short: "Targeted therapies for patchy hair loss caused by autoimmune response.",
+  overview: {
+    title: "Alopecia Areata Care",
+    description: "Specialized treatments to stimulate hair regrowth, reduce inflammation, and manage autoimmune-related hair loss effectively."
+  },
+  // Optional: add image later
+  image: imgAlopecia,
+  included: ["Steroid injections", "Topical immunotherapy", "Growth stimulating therapies"],
+  excluded: ["Not suitable without medical consultation"]
+}
+
+
+
+
 ];
 
 export function getExpandedService(id) {

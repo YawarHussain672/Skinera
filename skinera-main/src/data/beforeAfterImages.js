@@ -13,6 +13,9 @@ import korean from "../../Images/underService/korean.jpg";
 import deepPeel from "../../Images/underService/pelling-deep.jpg";
 import pigmentation from "../../Images/underService/pigmentaion.jpg";
 import skinTightening from "../../Images/underService/skin-titining.jpg";
+import alopeciaareata from "../../Images/underService/alopecia-treatment.jpg";
+import dermatitis from "../../Images/underService/dermatitiss.jpg";
+
 
 // Re-use closest images as placeholders for services without dedicated before/after assets yet
 const laserHairRemoval = skinTightening; // placeholder
@@ -40,6 +43,8 @@ export const beforeAfterImages = {
   "laser-skin-therapy": laserSkinTherapy,
   mesotherapy: mesotherapy,
   microdermabrasion: microdermabrasion,
+  "alopecia-treatment": alopeciaareata,
+  dermatitiss: dermatitis,
 };
 
 export function getBeforeAfterImage(id) {

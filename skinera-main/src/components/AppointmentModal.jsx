@@ -257,7 +257,11 @@ export default function AppointmentModal({ open, onClose, onSubmit }) {
                 <option>HAIR GFC</option>
                 <option>Hair regrowth laser</option>
                 <option>Korean Skin Treatment</option>
-                <option>Botox Treatment</option>
+                {/* <option>Botox Treatment</option> */}
+                <option>Eczema</option>
+                <option>Psoriasis</option>
+                <option>Dermatitis</option>
+                <option>Alopecia Areata</option>
                 <option>Others</option>
               </select>
               {errors.concern && (

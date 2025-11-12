@@ -24,7 +24,7 @@ export default function SecondSection({ onBookAppointment }) {
         </div>
 
         {/* Grid layout - large screens mirrors the reference composition */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 lg:grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-8">
           {/* Row 1 */}
           <figure className="lg:col-span-4 lg:row-start-1 lg:col-start-1">
             <img
@@ -35,12 +35,12 @@ export default function SecondSection({ onBookAppointment }) {
           </figure>
 
           {/* Center text + action boxes at large screens */}
-          <div className="hidden lg:flex lg:col-span-4 lg:row-start-1 lg:col-start-5 lg:row-span-2 flex-col items-center justify-center text-center px-4 space-y-6">
+          <div className="hidden lg:flex lg:col-span-4 lg:row-start-1 lg:col-start-5  flex-col items-center justify-center text-center px-4 space-y-6">
             <div className="w-full">
               <div className="mx-auto w-[90%] rounded-xl py-6 flex items-center justify-center">
                 <p className="font-domine font-medium text-[#b37556] text-[34px] leading-snug text-center">
-                  For customised skin & hair
-                  <br /> treatment
+                  FOR CUSTOMISED SKIN & HAIR
+                  <br /> TREATMENT
                 </p>
               </div>
             </div>
@@ -77,13 +77,13 @@ export default function SecondSection({ onBookAppointment }) {
           </figure>
 
           {/* Row 2 */}
-          <figure className="md:col-span-1 lg:col-span-4 lg:row-start-2 lg:col-start-1">
+          {/* <figure className="md:col-span-1 lg:col-span-4 lg:row-start-2 lg:col-start-1">
             <img
               src={girl}
               alt="Skincare close up"
               className="h-56 sm:h-64 md:h-72 lg:h-[340px] w-full object-cover shadow-xl"
             />
-          </figure>
+          </figure> */}
           
 
           {/* <figure className="md:col-span-1 lg:col-span-4 lg:row-start-2 lg:col-start-5">
@@ -94,13 +94,13 @@ export default function SecondSection({ onBookAppointment }) {
             />
           </figure> */}
 
-          <figure className="md:col-span-1 lg:col-span-4 lg:row-start-2 lg:col-start-9">
+          {/* <figure className="md:col-span-1 lg:col-span-4 lg:row-start-2 lg:col-start-9">
             <img
               src={lemon}
               alt="Bottle with lemon and oil"
               className="h-56 sm:h-64 md:h-72 lg:h-[340px] w-full object-cover shadow-xl"
             />
-          </figure>
+          </figure> */}
         </div>
       </div>
     </section>
