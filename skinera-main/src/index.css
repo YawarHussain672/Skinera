@@ -15,6 +15,32 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Performance optimizations */
+img,
+video {
+  content-visibility: auto;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Optimize font loading */
+body {
+  text-rendering: optimizeSpeed;
+}
+
 /* Custom utility classes for the reviews slider */
 @layer utilities {
   .no-scrollbar {
