@@ -7,7 +7,7 @@ A modern, responsive skincare website built with React, featuring an admin dashb
 ### Frontend Features
 - **Modern UI/UX**: Clean, professional design with Tailwind CSS
 - **Responsive Design**: Fully responsive across all devices
-- **Multi-page Navigation**: Home, About, Services, Contact, News
+- **Multi-page Navigation**: Home, About, Services, News
 - **News Management**: Dynamic news articles with image support
 - **Admin Dashboard**: Complete content management system
 - **Image Upload**: Support for news article images
@@ -130,7 +130,7 @@ Dskinova/
 - `/` - Homepage with hero section and services
 - `/about` - About Us page
 - `/service` - Service details page
-- `/contact` - Contact information
+
 - `/news` - News archive page
 - `/news/:slug` - Individual news article
 - `/admin-login` - Admin authentication
@@ -172,13 +172,4 @@ The Express server can be deployed to:
 
 This project is licensed under the ISC License.
 
-## 📞 Contact
 
-**Vikky Kumar**
-- GitHub: [@Vikky-Kumar-Nv](https://github.com/Vikky-Kumar-Nv)
-- Project: [DSkinova](https://github.com/Vikky-Kumar-Nv/Dskinova)
-
----
-
-⭐ **Star this repository** if you found it helpful!</content>
-<parameter name="filePath">e:\ProgramingByVikky\skinova\README.md
