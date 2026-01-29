@@ -227,7 +227,7 @@ export default function Footer() {
         <p className="mt-6 text-center text-white/95 text-xs sm:text-sm">
           Designed and developed by{" "}
           <span className="text-white font-medium animate-pulse">
-            Digital Nishi
+            Yawar Hussain
           </span>
         </p>
       </div>
