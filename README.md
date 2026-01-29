@@ -171,5 +171,3 @@ The Express server can be deployed to:
 ## 📝 License
 
 This project is licensed under the ISC License.
-
-

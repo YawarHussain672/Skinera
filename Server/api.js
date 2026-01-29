@@ -17,7 +17,9 @@ const allowedOrigins = [
   CLIENT_URL,
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://dskinnovafdin.vercel.app"
+  "https://dskinnovafdin.vercel.app",
+  "https://skinera.vercel.app",
+  "https://skinera-server.vercel.app"
 ];
 
 app.use(cors({
